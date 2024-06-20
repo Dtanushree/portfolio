@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4ea17be720.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+   <div id="header">
+    <div class="container">
+        <nav class="page-header">
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" style="cursor: pointer;" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Graphics & UI/UX Designer</p>
+            <h1>Hi,I'm <span>Tanushree</span><br>From West Bengal</h1>
+        </div>
+    </div>
+   </div>
+   <!-- ----------about-------------- -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Aboutme.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Tanushree Das , a dedicated graphics and UI/UX designer passionate about crafting engaging digital experiences. With a focus on clean aesthetics and user-centric design, I transform ideas into visually stunning and functional solutions. Let's collaborate and bring your vision to life.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Graphics Design</span><br> Adobe Photoshop<br>Adobe Illustrator<br>Adobe InDesign<br>Adobe After Effects<br>Adobe Premire Pro<br> Adobe Audition<br>
+                            </li>
+                           
+                            <li><span>UI/UX</span><br>Figma<br>Adobe XD</li>
+                            <li><span>Web Design</span><br>HTML 5.0<br>CSS 3.0<br>Bootstrap<br>SASS<br></li>
+                           <li><span>Animation</span><br>Adobe Animate CC</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"  id="Experience">
+                        <ul>
+                            <li><span>Graphic Designer Intern</span><br>Hamsi Marketing Pvt.Ltd </li>
+                            <li><span>2D Animator Intern</span><br>Animatrix Academy of Media Studies</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"  id="Education">
+                        <ul>
+                            <li><span>Diploma in Multimedia and Animation</span><br>Jadavpur Univerity, CAD Centre<br>August 2023- June 2024</li>
+                            <li><span>Animatrix Academy of Media Studies</span><br>August 2020- January 2023</li>
+                            <li><span>B.A Honours in English Literature</span><br>Univerity of Calcutta</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- ----------servies--------- -->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+               
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Graphics Design</h2>
+                <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, nihil</p>   -->
+         
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, nihil</p>  
+               -->
+                    </div>
+                    <div>
+                        
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, nihil</p>  
+                 -->
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-compact-disc"></i>
+                            <h2>Animation</h2>
+                            <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, nihil</p>   -->
+                     
+                            </div>
+        </div>
+
+    </div>
+   </div>
+   <!-- ---------portfolio----------------- -->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="R.jpg">
+                <div class="layer">
+                    <h3>Graphics Design</h3>
+                    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, aperiam.</p> -->
+                    <a href="https://drive.google.com/drive/folders/1bcvr1xZ4QHmD9Soba7IAJ2LlQAS6z0ML"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="R (1).jpg">
+                <div class="layer">
+                    <h3>UI/UX</h3>
+                    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, aperiam.</p> -->
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="maxresdefault (2).jpg">
+                <div class="layer">
+                    <h3>Web Design</h3>
+                    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, aperiam.</p> -->
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="R.png">
+                <div class="layer">
+                    <h3>Animation</h3>
+                    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, aperiam.</p> -->
+                    <a href="https://drive.google.com/drive/folders/15B2TlUwOAHcgHeJg3YV7lbMmCNDROyg_"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+   </div>
+   <!-- -------------------contact------------------ -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dastanushree003@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9547345659</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Dtanushree"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="https://www.linkedin.com/in/tanushree-das-764087267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                     <a href="https://www.behance.net/tanushreedas10"><i class="fa-brands fa-square-behance"></i></a>
+                </div>
+                <a href="Tanushree Das Graphic and uiux resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright@ Tanushree<i class="fa-solid fa-heart"></i></p>
+    </div>
+   </div>
+   <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyQA5iwQMg6Kp2_NPQIU1IF-r8Z8PRknDMebSPH-BLOuEopGGj_U7qYjh7nXGVg17Gg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListner('submit', e =>{
+        e.preventDefault()
+        fetch(scriptURL,{ method: 'POST', body: new FormData(form)})
+        .then(reponse => {
+            msg.innerHTML = "Message Sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Erroor!',error.message))
+    })
+</script>
+  <script type="text/JavaScript" src="jquery.min.js"></script>
+  <script type="text/JavaScript" src="main.js"></script>
+</body>
+</html>
